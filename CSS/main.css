@@ -27,3 +27,7 @@ div.double {
 input {
 	width: 120px;
 }
+
+.centered {
+    text-align: center;
+}
