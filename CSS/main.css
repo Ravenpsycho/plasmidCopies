@@ -6,8 +6,9 @@ h1{
 	margin: 10px;
 }
 
-h2.mathForm {
+p.mathForm {
     text-align: center;
+    font-size: 1.8em;
 }
 
 p {
