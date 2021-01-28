@@ -2,8 +2,12 @@ body {
 	margin: 20px;
 }
 
-h1, h2{
+h1{
 	margin: 10px;
+}
+
+h2.mathForm {
+    text-align: center;
 }
 
 p {
