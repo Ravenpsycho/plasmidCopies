@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="CSS/main.css">
+	<title>JS Tryouts</title>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+</head>
+
+<body>
+	<h1>Welcome</h1>
+	<div class="double">
+		<p>
+			Calculate the number of copies in your sample using formula:<br>
+			<h2>\(N(Copies) = \frac{W * N_A}{L * 650 * 1E9}\)</h2><br>
+		</p>
+		<p>
+			Where:<br>
+			<ul>\(W\) = Weight in ng</ul>
+			<ul>\(N_A\) = Avogadro's Constant</ul>
+			<ul>\(L\) = Length in basepairs"</ul>
+			<ul>\(650\) = Molar weight of one basepair in gramms</ul>
+			<ul>\(1E9\) = gramms to nanogramms conversion</ul>
+		</p>
+	</div>
+	<div class="double">
+	<p>
+		<label for="weight">Enter weigth in ng:</label><br>
+		<input type="text" id="weight">
+	</p>
+	<p>
+		<label for="length">Enter size in bp:</label><br>
+		<input type="text" id="size">
+	</p>		
+	<p>
+		<button id="mainBtn">Click me!</button>
+		<h2 id="answer">Awaiting infos...</h2>
+	</p>
+	</div>
+
+	<script src="JS/app.js" charset="UTF-8"></script>
+</body>
+
+</html>
