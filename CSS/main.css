@@ -6,6 +6,11 @@ h1 {
 	margin: 10px;
 }
 
+p.mathForm {
+    text-align: center;
+    font-size: 1.8em;
+}
+
 p {
 	margin: 10px;
 }
@@ -23,6 +28,6 @@ input {
 	width: 120px;
 }
 
-h2.mathjax-formula {
-	text-align: center;
+.centered {
+    text-align: center;
 }
