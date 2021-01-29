@@ -2,20 +2,35 @@ body {
 	margin: 2em;
 }
 
-h1{
-	margin: 1em;
-}
-
-p {
-	margin: 1em;
-}
-
 button {
-	margin-top: 0.2em;
+	margin-top: 10px;
+}
+
+div.double {
+	border-style: double;
+	width: 450px;
+}
+
+h1 {
+	margin: 10px;
 }
 
 input {
 	width: 120px;
+}
+
+li {
+	padding-bottom: .8em;
+
+}
+
+p.mathForm {
+    text-align: center;
+    font-size: 1.8em;
+}
+
+p {
+	margin: 10px;
 }
 
 .mathForm {
@@ -29,4 +44,7 @@ input {
 .double {
     border-style: double;
     width: 450px;
+
+.boldText {
+	font-weight: bold;
 }
