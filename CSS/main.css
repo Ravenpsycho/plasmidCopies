@@ -2,7 +2,7 @@ body {
 	margin: 20px;
 }
 
-h1, h2{
+h1 {
 	margin: 10px;
 }
 
@@ -21,4 +21,8 @@ div.double {
 
 input {
 	width: 120px;
+}
+
+h2.mathjax-formula {
+	text-align: center;
 }
