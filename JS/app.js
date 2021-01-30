@@ -21,6 +21,7 @@ btn.onclick = function(){
 		$(".alert").hide();
 		$("#alertBannerSuccess").show();
 	}else{
+		$(".alert").hide();
 		$('#alertBannerError').show();
 	}
 

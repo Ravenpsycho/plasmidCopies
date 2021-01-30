@@ -3,9 +3,9 @@
 <head>
 	<title>Plasmid Copies</title>
 
-	<link rel="stylesheet" href="CSS/main.css">
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-	
+	<link rel="stylesheet" href="CSS/main.css">
+
 	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
 	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -23,37 +23,45 @@
   		<strong>SUCCESS!</strong> Please feel free to 
   		<a href="http://www.paypal.me/MathieuCanales" target="_blank" class="alert-link">donate!</a>
 	</div>
-	<h1>Welcome</h1>
-	<div class="double">
-		<p class="centered">
-			Calculate the number of copies in your sample using formula:<br>
-			<p class="mathForm centered">\(N \approx \frac{W * N_A}{L * 650 * 1E9}\)
-		</p>
-		<div>
-			<p class="boldText">Where:</p>
-			<ul class="classicList">
-				<li>\(N\) = number of copies</li>
-				<li>\(W\) = Weight in ng</li>
-				<li>\(N_A\) = Avogadro's Constant</li>
-				<li>\(L\) = Length in basepairs"</li>
-				<li>\(650\) = Molar weight of one basepair in grams</li>
-				<li>\(1E9\) = grams to nanogramms conversion</li>
-			</ul>
+	<div class="row justify-content-center">
+		<div class="col-md-6 centered bg-secondary text-light">
+			<h1>Welcome</h1>
 		</div>
 	</div>
-	<div class="double">
-	<p>
-		<label for="weight">Enter weigth in ng:</label><br>
-		<input type="text" id="weight">
-	</p>
-	<p>
-		<label for="length">Enter size in bp:</label><br>
-		<input type="text" id="size">
-	</p>		
-	<p>
-		<button id="mainBtn">Click me!</button>
-		<h2 class="centered" id="answer">Awaiting infos...</h2>
-	</p>
+	<div class="row justify-content-center">
+		<div class="col-md-4 bg-secondary text-light outline-white">
+			<p>
+				Calculate the number of copies in your sample using formula:<br>
+				<div class="mathForm centered outline-white">
+					\(N \approx \frac{W * N_A}{L * 650 * 1E9}\)
+				</div>
+			<div>
+				<p class="boldText">Where:</p>
+				<ul class="classicList">
+					<li>\(N\) = number of copies</li>
+					<li>\(W\) = Weight in ng</li>
+					<li>\(N_A\) = Avogadro's Constant</li>
+					<li>\(L\) = Length in basepairs"</li>
+					<li>\(650\) = Molar weight of one basepair in grams</li>
+					<li>\(1E9\) = grams to nanogramms conversion</li>
+				</ul>
+			</div>
+		</div>
+		<div class="col-md-2 bg-secondary text-light outline-white centered">
+			<p>
+				<div class="outline-white"><strong>Try it yourself!</strong></div>
+				<label for="weight">Enter weigth in ng:</label><br>
+				<input type="text" id="weight">
+			</p>
+			<p>
+				<label for="length">Enter size in bp:</label><br>
+				<input type="text" id="size">
+			</p>		
+			<p>
+				<button id="mainBtn">Click me!</button>
+				<h2 id="answer">Awaiting infos...</h2>
+			</p>
+		</div>
 	</div>
 
 	<script src="JS/app.js" charset="UTF-8"></script>
