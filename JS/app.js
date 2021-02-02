@@ -18,12 +18,7 @@ btn.onclick = function(){
 	/* Action */
 	if(checkNums && checkEmpty){
 		answer.innerHTML = "Copies for " + weight + "ng = " + result.toExponential(3);
-		$(".alert").hide();
-		$("#alertBannerSuccess").show();
 	}else{
-		$(".alert").hide();
-		$('#alertBannerError').show();
+		alert("Only numeric inputs, please!")
 	}
-
-	
 }

@@ -1,43 +1,33 @@
-body {
-	margin: 20px;
+
+.container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
 }
 
-button {
-	margin-top: 10px;
+.header {
+	flex-basis: 100%;
+	text-align: center;
 }
 
+.box {
+	flex-basis: 25%;
+	background-color: #66FFCC;
+	padding: 10px;
+	border: solid #00CC88;
 
-h1 {
-	margin: 10px;
-}
-
-input {
-	width: 120px;
-}
-
-li {
-	padding-bottom: .8em;
-
-}
-
-p.mathForm {
-    font-size: 1.8em;
-}
-
-p {
-	margin: 10px;
 }
 
 .mathForm {
     font-size: 1.8em;
+    margin-left: 50px;
 }
 
-.outline-white {
-    border: solid #FFFFFF 3px;
-    padding: 10px;
+body {
+	background-image: url("IMG/lab.jpg");
 }
 
-.centered {
-    text-align: center;
-}
+input {
+	margin-bottom: 20px
 
+}
