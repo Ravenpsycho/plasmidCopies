@@ -8,24 +8,34 @@
 .header {
 	flex-basis: 100%;
 	text-align: center;
+    font-size: 1.8em
 }
 
 .box {
 	flex-basis: 25%;
-	background-color: #66FFCC80;
+	background-color: #66FFCCCC;
 	padding: 10px;
-	border: solid #00CC8880;
+	border: solid #00CC88CC;
 	border-radius: 10%;
 	box-shadow: 5px 5px 5px black;
 	margin: 20px
 }
 
+.box-2 {
+    text-align: center;
+}
+
+.break {
+    flex-basis: 100%;
+}
+
 .mathForm {
     font-size: 1.8em;
-    margin-left: 50px;
+    text-align: center;
 }
 
 body {
+    font-family: "Lucida Console";
 	background-image: url("../IMG/lab2.jpeg");
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -38,6 +48,8 @@ hr {
 
 input {
 	margin-bottom: 20px;
+    font-family: "Lucida Console";
+    font-size: 20px
 
 }
 
