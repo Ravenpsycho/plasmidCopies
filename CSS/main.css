@@ -12,10 +12,12 @@
 
 .box {
 	flex-basis: 25%;
-	background-color: #66FFCC;
+	background-color: #66FFCC80;
 	padding: 10px;
-	border: solid #00CC88;
-
+	border: solid #00CC8880;
+	border-radius: 10%;
+	box-shadow: 5px 5px 5px black;
+	margin: 20px
 }
 
 .mathForm {
@@ -24,10 +26,35 @@
 }
 
 body {
-	background-image: url("IMG/lab.jpg");
+	background-image: url("../IMG/lab2.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+  	background-attachment: fixed;
+}
+
+hr {
+	border-top: 3px solid black;
 }
 
 input {
-	margin-bottom: 20px
+	margin-bottom: 20px;
 
+}
+
+@media screen and (max-width: 1600px) {
+	.box {
+		flex-basis: 30%;
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.box {
+		flex-basis: 50%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	.box {
+		flex-basis: 70%;
+	}
 }
