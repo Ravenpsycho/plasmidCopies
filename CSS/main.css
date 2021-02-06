@@ -8,16 +8,15 @@
 .header {
 	flex-basis: 100%;
 	text-align: center;
-    font-size: 1.8em
+    font-size: 1.8em;
 }
 
 .box {
 	flex-basis: 25%;
-	background-color: #66FFCCCC;
+	background-color: #19e5b4ff;
 	padding: 10px;
-	border: solid #00CC88CC;
 	border-radius: 10%;
-	box-shadow: 5px 5px 5px black;
+	box-shadow: 5px 5px 5px #000000;
 	margin: 20px
 }
 
@@ -43,7 +42,7 @@ body {
 }
 
 hr {
-	border-top: 3px solid black;
+	border-top: 3px solid #000000;
 }
 
 input {
